@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+  <h2>Interface 1. Calculator with text box and dropdown list</h2>
+  <!-- #interface 1 -->
+    <input type="number" id="num1_T1" placeholder="Input number here">
+    <select name="operator" id="operator_T1">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    <input type="number" id="num2_T1" placeholder="Input number here">
+    <button id="calculate_T1">=</button>
+    <label for="calculate_T1"><b>Press = mark!</b></label>
+    <div id="result_T1" style="margin: 10px 0px; display: inline; color: #f70505"></div>
+
+  
+  <h2>Interface 2. Calculator with text box and option buttons</h2>
+<!-- #interface 2 -->
+    <div>
+      <input type="number" id="num1_T2" placeholder="Input number here">
+    </div>
+    <div style="margin: 10px;">
+      <input type="radio" id="+" name="operator_T2" value="+">
+      <label for="+">Addition</label><br>
+      <input type="radio" id="-" name="operator_T2" value="-">
+      <label for="-">Subtraction</label><br>
+      <input type="radio" id="*" name="operator_T2" value="*">
+      <label for="*">Multiplication</label><br>
+      <input type="radio" id="/" name="operator_T2" value="/">
+      <label for="/">Distribution</label><br>
+    </div>
+   <div>
+      <input type="number" id="num2_T2" placeholder="Input number here">
+      <button id="calculate_T2">=</button>
+      <label for="calculate_T2"><b>Press = mark!</b></label>
+      <div id="result_T2" style="margin: 10px 0px; display: inline; color: #f70505"></div>
+   </div>
+   
+  
+  
+   <h2>Interface 3. Calculator with text box and option buttons</h2>
+  <!-- #interface 3 -->
+    
+    <button id="decrement1">v</button>
+    <input type="number" id="num1_T3" placeholder="Input number here">
+    <button id="increment1">^</button>
+    <select name="operator" id="operator_T3">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    <button id="decrement2">v</button>
+    <input type="number" id="num2_T3" placeholder="Input number here">
+    <button id="increment2">^</button>
+    
+    <button id="calculate_T3">Calculate</button>
+    <label for="calculate_T3"><b>Press = mark!</b></label>
+    <div id="result_T3" style="margin: 10px 0px; display: inline; color: #f70505"></div>
+
+<script src="calculator.js"></script>
+</body>
+</html>
